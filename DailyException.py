@@ -15,27 +15,27 @@ from pandas import read_csv, merge
 from datetime import date, timedelta
 
 
-server        = '172.25.6.249'
-database      = 'MIS'
-username      = 'ewadm'
-password      = 'EW@dmin#2022'
+server        = ''
+database      = ''
+username      = ''
+password      = ''
 driver        = '{ODBC Driver 17 for SQL Server}'
-smtp_server   = 'titan-co-in.mail.protection.outlook.com'
+smtp_server   = ''
 smtp_port     = 25
-from_email    = 'noreply-timesheet@titan.co.in'
-to_email = 'sivaramakrishnan@titan.co.in'
+from_email    = ''
+to_email = ''
 
-# server = '172.25.6.249'
-# database = 'MIS'
-# username = 'ewadm'                                             #comment************************************
-# password = 'EW@dmin#2022'
+# server = ''
+# database = ''
+# username = ''                                             #comment************************************
+# password = ''
 # driver = '{ODBC Driver 17 for SQL Server}'
-# smtp_server = 'smtp.office365.com'
+# smtp_server = ''
 # smtp_port = 587
-# smtp_user = 'naveenn@titan.co.in'
-# smtp_password = 'm0tivate@W2rk'
+# smtp_user = ''
+# smtp_password = ''
 # from_email = smtp_user
-# to_email = 'prantapaul@titan.co.in'
+# to_email = ''
 
 
 
