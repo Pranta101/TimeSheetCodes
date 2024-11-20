@@ -13,21 +13,21 @@ import logging
 from oauthlib.uri_validate import query
 from pandas import read_csv
 
-server = '172.25.6.249'
-database = 'MIS'
-username = 'ewadm'
-password = 'EW@dmin#2022'
+server = ''
+database = ''
+username = ''
+password = ''
 driver = '{ODBC Driver 17 for SQL Server}'
-smtp_server = 'titan-co-in.mail.protection.outlook.com'
+smtp_server = ''
 smtp_port = 25
-from_email = 'noreply-timesheet@titan.co.in'
-to_email = 'sivaramakrishnan@titan.co.in'
-# smtp_server = 'smtp.office365.com'
+from_email = ''
+to_email = ''
+# smtp_server = ''
 # smtp_port = 587
-# smtp_user = 'naveenn@titan.co.in'
-# smtp_password = 'm0tivate@W1rk'
+# smtp_user = ''
+# smtp_password = ''
 # from_email = smtp_user
-# to_email = 'prantapaul@titan.co.in'
+# to_email = ''
 
 
 today = date.today() - timedelta(days=1)
